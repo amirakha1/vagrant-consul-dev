@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Install dependencies if needed
-which unzip curl jq dnsutils 2>&1 || {
+which unzip curl jq 2>&1 || {
   echo "Installing dependencies... "
   apt-get update
-  apt-get install -y unzip curl jq dnsutils
+  apt-get install -y unzip curl jq
 }
 
 # Download consul if needed
