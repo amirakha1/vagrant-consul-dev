@@ -15,7 +15,7 @@ which consul 2>&1 || {
   unzip /var/tmp/consul.zip
   rm /var/tmp/consul.zip
 
-  # Set permission and move to the path
+  # Set permission
   chmod +x consul
 
   popd
